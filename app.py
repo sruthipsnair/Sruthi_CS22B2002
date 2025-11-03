@@ -4,6 +4,7 @@ import sys
 import subprocess
 from pathlib import Path
 
+
 def main():
     here = Path(__file__).parent.resolve()
     ui = here / "frontend" / "ui_streamlit.py"
